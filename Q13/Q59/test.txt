@@ -1,0 +1,16 @@
+7
+Add single P2
+Set P2 255 0 0
+Add normal P1
+Group 2 P2 P1 G1
+Add reverse P3
+Group 2 P1 P3 G2
+Set G2 0 255 0
+Gray
+
+
+3
+Add normal P2
+Set P2 255 0 0
+Add normal P1
+Normal

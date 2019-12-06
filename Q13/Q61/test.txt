@@ -1,0 +1,112 @@
+createCustomer Lee
+createCustomer Stephen
+createAccount 0
+createAccount 1
+addToCustomer 0 Lee
+addToCustomer 1 Lee
+createAccount 2
+addToCustomer 2 Stephen
+customsum
+end
+
+Customer Summary
+ - Lee (2 accounts)
+ - Stephen (1 account)
+------------------------------
+createCustomer Bill
+createAccount 0
+addToCustomer 0 Bill
+accountDeposit 0 500.0
+banktotalInserstPaid
+end
+
+0.5（没换行）
+------------------------------
+createCustomer Bill
+createAccount 1
+addToCustomer 0 Bill
+accountDeposit 0 250.0
+banktotalInserstPaid
+end
+
+0.3（我输出0.25）
+------------------------------
+createCustomer Bill
+createAccount 2
+addToCustomer 0 Bill
+accountDeposit 0 360.0
+banktotalInserstPaid
+end
+
+7.2
+------------------------------
+createCustomer Bill
+createAccount 0
+addToCustomer 0 Bill
+accountWithdraw 0 500.0
+end
+
+sumTransactions must be greater than zero
+------------------------------
+createAccount 0
+createAccount 1
+createCustomer Bill
+createCustomer Tim
+addToCustomer 0 Bill
+addToCustomer 1 Tim
+accountDeposit 0 1600.0
+accountDeposit 1 2000.0
+banktotalInserstPaid
+end
+
+4.6
+------------------------------
+createCustomer Bill
+createAccount 2
+addToCustomer 0 Bill
+accountDeposit 0 1600.0
+accountWithdraw 0 700.0
+sumTransactions 0
+end
+
+900.0
+------------------------------
+createAccount 0
+createAccount 1
+createCustomer Tom
+addToCustomer 0 Tom
+addToCustomer 1 Tom
+accountDeposit 0 500.0
+accountDeposit 1 2000.0
+accountWithdraw 1 300.0
+getStatement Tom
+end
+
+Statement for Tom
+
+Checking Account
+  deposit $500.00
+Total $500.00
+
+Savings Account
+  deposit $2000.00
+  withdrawal $300.00
+Total $1700.00
+
+Total In All Accounts $2200.00
+------------------------------
+createAccount 2
+createAccount 1
+createAccount 0
+createCustomer Bill
+addToCustomer 0 Bill
+addToCustomer 1 Bill
+addToCustomer 2 Bill
+accountDeposit 0 3000.0
+accountDeposit 1 2000.0
+accountDeposit 2 5000.0
+totalInterestEarned Bill
+end
+
+178.0
+------------------------------

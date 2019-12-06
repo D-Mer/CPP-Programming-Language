@@ -1,0 +1,994 @@
+201
+add helicopter p0
+add battleplane p1
+add helicopter p2
+add transportplane p3
+add helicopter p4
+add battleplane p5
+add helicopter p6
+add transportplane p7
+add helicopter p8
+add transportplane p9
+add transportplane p10
+add helicopter p11
+add transportplane p12
+add battleplane p13
+add battleplane p14
+add helicopter p15
+add battleplane p16
+add battleplane p17
+add battleplane p18
+add transportplane p19
+add helicopter p20
+add transportplane p21
+add helicopter p22
+add transportplane p23
+add battleplane p24
+add battleplane p25
+add battleplane p26
+add helicopter p27
+add battleplane p28
+add helicopter p29
+add battleplane p30
+add transportplane p31
+add helicopter p32
+add battleplane p33
+add battleplane p34
+add battleplane p35
+add battleplane p36
+add helicopter p37
+add helicopter p38
+add transportplane p39
+add battleplane p40
+add transportplane p41
+add transportplane p42
+add helicopter p43
+add transportplane p44
+add transportplane p45
+add helicopter p46
+add helicopter p47
+add helicopter p48
+add helicopter p49
+add transportplane p50
+add helicopter p51
+add helicopter p52
+add transportplane p53
+add battleplane p54
+add battleplane p55
+add transportplane p56
+add battleplane p57
+add transportplane p58
+add battleplane p59
+add helicopter p60
+add helicopter p61
+add battleplane p62
+add helicopter p63
+add helicopter p64
+add battleplane p65
+add helicopter p66
+add transportplane p67
+add transportplane p68
+add transportplane p69
+add transportplane p70
+add helicopter p71
+add battleplane p72
+add helicopter p73
+add transportplane p74
+add transportplane p75
+add helicopter p76
+add helicopter p77
+add helicopter p78
+add helicopter p79
+add helicopter p80
+add helicopter p81
+add battleplane p82
+add helicopter p83
+add transportplane p84
+add battleplane p85
+add helicopter p86
+add helicopter p87
+add transportplane p88
+add battleplane p89
+add helicopter p90
+add helicopter p91
+add helicopter p92
+add helicopter p93
+add transportplane p94
+add battleplane p95
+add helicopter p96
+add transportplane p97
+add transportplane p98
+add battleplane p99
+set p0 13 19 16
+set p1 9 7 19
+set p2 6 18 15
+set p3 6 7 7
+set p4 16 12 7
+set p5 8 19 3
+set p6 2 15 19
+set p7 11 3 4
+set p8 3 17 19
+set p9 12 16 18
+set p10 4 10 9
+set p11 10 3 3
+set p12 18 2 7
+set p13 15 16 14
+set p14 4 11 12
+set p15 3 11 11
+set p16 18 7 17
+set p17 19 2 6
+set p18 12 10 16
+set p19 6 12 3
+set p20 15 15 2
+set p21 13 16 13
+set p22 5 3 9
+set p23 17 4 2
+set p24 7 11 18
+set p25 3 8 3
+set p26 3 15 3
+set p27 11 18 11
+set p28 19 16 12
+set p29 5 11 8
+set p30 9 18 2
+set p31 11 14 16
+set p32 6 8 12
+set p33 11 19 14
+set p34 14 10 18
+set p35 11 6 9
+set p36 14 5 2
+set p37 16 4 13
+set p38 6 10 19
+set p39 19 17 3
+set p40 19 4 16
+set p41 12 4 9
+set p42 2 19 16
+set p43 13 14 11
+set p44 13 17 6
+set p45 6 17 15
+set p46 15 10 18
+set p47 11 18 18
+set p48 8 3 2
+set p49 16 10 16
+set p50 7 11 4
+set p51 6 12 13
+set p52 12 6 8
+set p53 3 14 7
+set p54 18 7 7
+set p55 19 10 4
+set p56 8 14 11
+set p57 2 13 7
+set p58 2 19 10
+set p59 6 12 16
+set p60 2 11 15
+set p61 15 6 2
+set p62 12 6 7
+set p63 19 11 13
+set p64 11 16 15
+set p65 16 5 7
+set p66 3 7 5
+set p67 17 17 6
+set p68 19 16 17
+set p69 3 2 17
+set p70 15 16 4
+set p71 11 18 12
+set p72 6 12 9
+set p73 15 19 19
+set p74 16 2 12
+set p75 6 17 19
+set p76 11 6 3
+set p77 13 11 2
+set p78 2 10 11
+set p79 4 14 8
+set p80 13 16 4
+set p81 14 16 10
+set p82 13 3 13
+set p83 13 12 12
+set p84 6 17 9
+set p85 17 9 13
+set p86 19 6 4
+set p87 5 2 19
+set p88 7 11 10
+set p89 19 17 6
+set p90 15 18 19
+set p91 13 19 4
+set p92 13 16 8
+set p93 17 6 10
+set p94 12 9 6
+set p95 14 13 14
+set p96 11 14 11
+set p97 6 16 15
+set p98 14 8 9
+set p99 17 6 13
+normal
+------------------------------
+14
+add battleplane p1
+add transportplane p2
+add helicopter p3
+add helicopter p4
+set p1 2 2 2
+set p2 3 1 3
+set p3 1 4 1
+set p4 1 6 1
+join p1 0
+join p3 0
+join p2 1
+join p4 1
+landfirst 7 p2
+schedule
+------------------------------
+31
+add battleplane p0
+add battleplane p1
+add transportplane p2
+add transportplane p3
+add transportplane p4
+add helicopter p5
+add battleplane p6
+add helicopter p7
+add transportplane p8
+add helicopter p9
+add transportplane p10
+add battleplane p11
+add transportplane p12
+add helicopter p13
+add transportplane p14
+set p0 10 2 8
+set p1 15 16 6
+set p2 17 14 12
+set p3 18 4 6
+set p4 9 13 14
+set p5 3 3 16
+set p6 9 19 6
+set p7 13 12 3
+set p8 7 3 14
+set p9 13 7 16
+set p10 11 8 13
+set p11 12 7 12
+set p12 8 13 12
+set p13 14 7 13
+set p14 9 12 8
+normal
+------------------------------
+214
+add battleplane p0
+add transportplane p1
+add battleplane p2
+add transportplane p3
+add transportplane p4
+add helicopter p5
+add transportplane p6
+add helicopter p7
+add helicopter p8
+add battleplane p9
+add transportplane p10
+add transportplane p11
+add transportplane p12
+add transportplane p13
+add battleplane p14
+add transportplane p15
+add battleplane p16
+add transportplane p17
+add battleplane p18
+add helicopter p19
+add battleplane p20
+add helicopter p21
+add transportplane p22
+add helicopter p23
+add battleplane p24
+add helicopter p25
+add transportplane p26
+add helicopter p27
+add battleplane p28
+add transportplane p29
+add battleplane p30
+add battleplane p31
+add helicopter p32
+add battleplane p33
+add helicopter p34
+add transportplane p35
+add transportplane p36
+add transportplane p37
+add transportplane p38
+add battleplane p39
+add battleplane p40
+add helicopter p41
+add transportplane p42
+add battleplane p43
+add transportplane p44
+add helicopter p45
+add transportplane p46
+add helicopter p47
+add transportplane p48
+add battleplane p49
+add battleplane p50
+add transportplane p51
+add battleplane p52
+add battleplane p53
+add helicopter p54
+add battleplane p55
+add transportplane p56
+add helicopter p57
+add transportplane p58
+add transportplane p59
+add helicopter p60
+add helicopter p61
+add battleplane p62
+add battleplane p63
+add helicopter p64
+add helicopter p65
+add helicopter p66
+add battleplane p67
+add battleplane p68
+add battleplane p69
+add transportplane p70
+set p0 16 6 12
+set p1 14 17 10
+set p2 14 15 9
+set p3 13 13 12
+set p4 7 5 15
+set p5 18 19 7
+set p6 13 3 15
+set p7 5 6 15
+set p8 9 19 13
+set p9 3 15 18
+set p10 16 19 16
+set p11 3 11 8
+set p12 13 8 13
+set p13 12 13 14
+set p14 12 12 9
+set p15 11 7 13
+set p16 10 16 2
+set p17 6 11 14
+set p18 2 11 5
+set p19 17 7 14
+set p20 8 15 3
+set p21 9 15 19
+set p22 16 7 10
+set p23 4 11 7
+set p24 4 2 4
+set p25 3 16 5
+set p26 7 7 13
+set p27 9 3 5
+set p28 12 8 11
+set p29 14 13 18
+set p30 9 3 12
+set p31 2 18 18
+set p32 11 15 3
+set p33 18 13 11
+set p34 10 12 17
+set p35 5 11 2
+set p36 18 15 14
+set p37 18 5 8
+set p38 19 11 12
+set p39 8 14 6
+set p40 3 13 5
+set p41 14 3 13
+set p42 2 18 17
+set p43 8 13 5
+set p44 16 10 3
+set p45 12 12 15
+set p46 13 3 18
+set p47 14 6 10
+set p48 15 9 6
+set p49 5 4 5
+set p50 4 3 2
+set p51 3 13 16
+set p52 18 10 6
+set p53 10 5 11
+set p54 2 6 12
+set p55 10 9 4
+set p56 7 17 14
+set p57 12 8 3
+set p58 6 18 14
+set p59 8 12 14
+set p60 15 7 10
+set p61 16 19 14
+set p62 14 19 9
+set p63 19 9 18
+set p64 19 16 17
+set p65 2 5 13
+set p66 12 9 7
+set p67 11 3 18
+set p68 14 7 12
+set p69 18 11 11
+set p70 17 6 8
+join p1 1
+join p67 3
+join p8 6
+join p26 6
+join p37 9
+join p31 9
+join p20 11
+join p49 12
+join p70 15
+join p33 18
+join p45 20
+join p13 22
+join p19 23
+join p10 24
+join p42 26
+join p35 28
+join p18 31
+join p47 34
+join p38 36
+join p5 37
+join p9 37
+join p27 38
+join p50 41
+join p2 42
+join p32 42
+join p60 43
+join p36 45
+join p54 47
+join p41 49
+join p69 52
+join p3 53
+join p66 54
+join p68 55
+join p64 56
+join p14 57
+join p46 59
+join p11 62
+join p62 63
+join p34 63
+join p24 65
+join p40 66
+join p25 69
+join p29 69
+join p12 70
+join p61 72
+join p48 74
+join p65 74
+join p55 75
+join p53 75
+join p23 75
+join p4 76
+join p52 77
+join p56 78
+join p51 79
+join p22 80
+join p59 80
+join p63 81
+join p58 84
+join p16 86
+join p17 89
+join p57 92
+join p6 95
+join p43 97
+join p21 100
+join p7 103
+join p15 106
+join p39 106
+join p28 106
+join p30 107
+join p0 110
+join p44 112
+schedule
+------------------------------
+28
+add battleplane p0
+add helicopter p1
+add battleplane p2
+add battleplane p3
+add transportplane p4
+add battleplane p5
+add battleplane p6
+add helicopter p7
+add transportplane p8
+set p0 14 15 15
+set p1 8 17 16
+set p2 2 3 3
+set p3 7 17 3
+set p4 2 14 4
+set p5 19 12 16
+set p6 19 5 11
+set p7 4 11 9
+set p8 12 12 14
+join p2 1
+join p5 1
+join p6 3
+join p7 3
+join p4 5
+join p1 8
+join p8 9
+join p3 9
+join p0 11
+schedule
+------------------------------
+124
+add transportplane p0
+add helicopter p1
+add battleplane p2
+add battleplane p3
+add helicopter p4
+add helicopter p5
+add transportplane p6
+add transportplane p7
+add transportplane p8
+add transportplane p9
+add helicopter p10
+add battleplane p11
+add battleplane p12
+add battleplane p13
+add battleplane p14
+add transportplane p15
+add battleplane p16
+add helicopter p17
+add helicopter p18
+add helicopter p19
+add helicopter p20
+add transportplane p21
+add helicopter p22
+add helicopter p23
+add battleplane p24
+add transportplane p25
+add helicopter p26
+add battleplane p27
+add helicopter p28
+add transportplane p29
+add battleplane p30
+add transportplane p31
+add helicopter p32
+add transportplane p33
+add helicopter p34
+add battleplane p35
+add transportplane p36
+add battleplane p37
+add transportplane p38
+add transportplane p39
+add helicopter p40
+set p0 6 11 14
+set p1 19 10 8
+set p2 18 14 2
+set p3 8 2 5
+set p4 15 17 8
+set p5 2 18 10
+set p6 2 17 18
+set p7 5 13 8
+set p8 3 6 2
+set p9 14 12 7
+set p10 6 16 2
+set p11 19 19 7
+set p12 2 4 10
+set p13 19 19 13
+set p14 16 5 10
+set p15 7 15 14
+set p16 9 2 17
+set p17 14 9 18
+set p18 2 18 5
+set p19 12 11 8
+set p20 11 3 4
+set p21 18 2 6
+set p22 11 8 12
+set p23 13 2 9
+set p24 3 16 12
+set p25 15 16 4
+set p26 2 6 16
+set p27 12 8 19
+set p28 18 6 18
+set p29 8 17 3
+set p30 15 18 15
+set p31 14 16 2
+set p32 10 12 8
+set p33 15 19 8
+set p34 4 5 5
+set p35 8 2 14
+set p36 8 6 3
+set p37 5 13 14
+set p38 11 4 6
+set p39 9 7 16
+set p40 4 19 6
+join p23 2
+join p24 4
+join p15 5
+join p40 7
+join p39 9
+join p25 12
+join p19 13
+join p32 14
+join p14 14
+join p13 16
+join p0 19
+join p35 20
+join p10 21
+join p2 23
+join p31 24
+join p27 25
+join p33 27
+join p28 27
+join p5 29
+join p7 32
+join p12 32
+join p8 32
+join p11 33
+join p1 35
+join p29 35
+join p34 38
+join p20 38
+join p4 40
+join p38 43
+join p9 43
+join p18 43
+join p36 44
+join p37 47
+join p22 49
+join p3 49
+join p17 51
+join p21 53
+join p16 54
+join p6 54
+join p30 57
+join p26 58
+schedule
+------------------------------
+85
+add battleplane p0
+add transportplane p1
+add transportplane p2
+add transportplane p3
+add battleplane p4
+add battleplane p5
+add battleplane p6
+add battleplane p7
+add transportplane p8
+add transportplane p9
+add battleplane p10
+add transportplane p11
+add helicopter p12
+add transportplane p13
+add helicopter p14
+add transportplane p15
+add helicopter p16
+add transportplane p17
+add transportplane p18
+add helicopter p19
+add battleplane p20
+add transportplane p21
+add battleplane p22
+add helicopter p23
+add helicopter p24
+add transportplane p25
+add battleplane p26
+add helicopter p27
+set p0 9 13 2
+set p1 9 14 16
+set p2 8 5 4
+set p3 7 8 18
+set p4 13 8 19
+set p5 16 10 7
+set p6 19 12 3
+set p7 12 6 6
+set p8 11 9 18
+set p9 8 14 7
+set p10 12 18 19
+set p11 6 11 11
+set p12 4 15 16
+set p13 15 5 4
+set p14 10 13 19
+set p15 3 19 7
+set p16 9 4 5
+set p17 4 3 13
+set p18 4 19 14
+set p19 13 4 6
+set p20 5 11 19
+set p21 9 11 7
+set p22 6 4 3
+set p23 8 11 19
+set p24 6 6 3
+set p25 5 8 10
+set p26 4 19 13
+set p27 10 18 13
+join p6 2
+join p9 3
+join p5 4
+join p1 5
+join p20 8
+join p11 8
+join p23 11
+join p18 14
+join p16 16
+join p12 17
+join p14 19
+join p21 19
+join p2 21
+join p7 23
+join p17 26
+join p27 27
+join p24 29
+join p8 32
+join p26 32
+join p0 33
+join p4 33
+join p19 35
+join p3 35
+join p22 35
+join p25 36
+join p13 36
+join p15 37
+join p10 39
+schedule
+------------------------------
+73
+add transportplane p0
+add transportplane p1
+add battleplane p2
+add battleplane p3
+add battleplane p4
+add battleplane p5
+add helicopter p6
+add transportplane p7
+add transportplane p8
+add transportplane p9
+add transportplane p10
+add helicopter p11
+add helicopter p12
+add helicopter p13
+add helicopter p14
+add battleplane p15
+add battleplane p16
+add helicopter p17
+add helicopter p18
+add transportplane p19
+add battleplane p20
+add battleplane p21
+add transportplane p22
+add transportplane p23
+set p0 8 8 18
+set p1 14 9 17
+set p2 15 15 19
+set p3 17 14 11
+set p4 19 2 5
+set p5 5 16 11
+set p6 13 6 10
+set p7 8 13 6
+set p8 14 19 18
+set p9 15 2 15
+set p10 17 6 7
+set p11 10 11 6
+set p12 10 8 8
+set p13 11 3 17
+set p14 15 7 10
+set p15 13 9 4
+set p16 6 4 6
+set p17 14 16 5
+set p18 5 11 15
+set p19 4 5 12
+set p20 14 2 18
+set p21 3 18 5
+set p22 6 13 2
+set p23 6 9 12
+join p1 2
+join p3 4
+join p11 7
+join p20 8
+join p10 11
+join p6 14
+join p17 15
+join p5 17
+join p0 19
+join p7 21
+join p18 21
+join p14 23
+join p9 26
+join p23 26
+join p21 27
+join p22 28
+join p15 31
+join p8 32
+join p16 34
+join p12 36
+join p2 37
+join p13 37
+join p4 40
+join p19 42
+schedule
+------------------------------
+193
+add battleplane p0
+add helicopter p1
+add transportplane p2
+add helicopter p3
+add battleplane p4
+add transportplane p5
+add battleplane p6
+add helicopter p7
+add helicopter p8
+add transportplane p9
+add transportplane p10
+add helicopter p11
+add transportplane p12
+add transportplane p13
+add helicopter p14
+add battleplane p15
+add helicopter p16
+add battleplane p17
+add helicopter p18
+add transportplane p19
+add battleplane p20
+add transportplane p21
+add helicopter p22
+add helicopter p23
+add transportplane p24
+add transportplane p25
+add helicopter p26
+add transportplane p27
+add transportplane p28
+add transportplane p29
+add transportplane p30
+add helicopter p31
+add battleplane p32
+add transportplane p33
+add transportplane p34
+add transportplane p35
+add battleplane p36
+add helicopter p37
+add battleplane p38
+add helicopter p39
+add battleplane p40
+add transportplane p41
+add transportplane p42
+add transportplane p43
+add helicopter p44
+add battleplane p45
+add battleplane p46
+add helicopter p47
+add battleplane p48
+add helicopter p49
+add battleplane p50
+add helicopter p51
+add battleplane p52
+add battleplane p53
+add battleplane p54
+add transportplane p55
+add helicopter p56
+add transportplane p57
+add transportplane p58
+add helicopter p59
+add helicopter p60
+add transportplane p61
+add helicopter p62
+add transportplane p63
+set p0 7 8 3
+set p1 17 10 13
+set p2 2 9 11
+set p3 3 8 18
+set p4 12 19 15
+set p5 6 3 10
+set p6 14 9 19
+set p7 16 8 16
+set p8 4 3 15
+set p9 18 15 7
+set p10 11 6 3
+set p11 6 12 13
+set p12 4 3 19
+set p13 11 18 7
+set p14 18 12 12
+set p15 17 7 5
+set p16 13 4 17
+set p17 3 2 9
+set p18 5 16 4
+set p19 4 13 17
+set p20 7 10 18
+set p21 3 3 15
+set p22 16 19 10
+set p23 12 19 12
+set p24 11 17 10
+set p25 5 7 12
+set p26 17 5 6
+set p27 13 15 3
+set p28 8 11 17
+set p29 8 16 18
+set p30 4 2 10
+set p31 10 10 2
+set p32 8 9 7
+set p33 14 6 14
+set p34 9 13 5
+set p35 16 9 13
+set p36 9 5 4
+set p37 4 16 8
+set p38 4 10 10
+set p39 12 17 19
+set p40 17 14 12
+set p41 2 11 11
+set p42 3 2 14
+set p43 7 10 11
+set p44 19 3 12
+set p45 15 8 10
+set p46 19 9 11
+set p47 6 5 11
+set p48 9 6 2
+set p49 10 17 3
+set p50 15 12 10
+set p51 4 5 12
+set p52 11 17 19
+set p53 10 12 3
+set p54 19 5 5
+set p55 6 11 6
+set p56 10 5 5
+set p57 16 4 11
+set p58 19 19 2
+set p59 19 8 19
+set p60 6 10 18
+set p61 8 4 2
+set p62 10 17 15
+set p63 11 5 12
+join p37 0
+join p32 0
+join p55 2
+join p2 2
+join p4 3
+join p40 5
+join p33 7
+join p43 10
+join p56 11
+join p28 12
+join p18 12
+join p10 14
+join p20 17
+join p16 17
+join p57 19
+join p34 20
+join p19 23
+join p26 25
+join p15 27
+join p51 29
+join p54 31
+join p0 32
+join p60 33
+join p53 33
+join p23 34
+join p46 36
+join p45 36
+join p9 38
+join p42 38
+join p29 40
+join p12 41
+join p48 42
+join p36 43
+join p5 46
+join p38 48
+join p30 51
+join p49 52
+join p31 52
+join p52 53
+join p24 53
+join p62 53
+join p63 54
+join p8 55
+join p6 58
+join p58 58
+join p11 58
+join p27 58
+join p61 61
+join p44 63
+join p17 63
+join p7 64
+join p25 66
+join p47 68
+join p35 70
+join p14 71
+join p21 71
+join p1 73
+join p13 74
+join p50 74
+join p22 75
+join p59 76
+join p39 76
+join p41 78
+join p3 81
+schedule
+------------------------------
+11
+add battleplane p1
+add transportplane p22
+add helicopter p3
+set p1 2 2 2
+set p22 3 1 3
+set p3 1 4 1
+join p1 0
+join p3 0
+join p22 1
+landfirst 7 p22
+schedule
+------------------------------
